@@ -54,8 +54,6 @@ var settings = module.exports = {
         crc:require('crc')
     },
 
-    functionGlobalContext: { },
-
     storageModule: require("./couchstorage")
 }
 
