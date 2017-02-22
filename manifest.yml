@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: coursersa_lo
+  host: coursersalo
+  disk_quota: 1024M
+  services:
+  - coursersa_lo-cloudantNoSQLDB
+  - coursersa_lo-iotf-service
